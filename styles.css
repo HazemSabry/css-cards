@@ -81,3 +81,8 @@ body {
   cursor: pointer;
   border-radius: var(--card-btn-border-reduce);
 }
+
+.card-footer--contact-search-button:hover,
+.card-footer--contact-search-button:focus {
+  background-color: var(--card-btn-outline-onHover-OR-onFocus-background-color);
+}
