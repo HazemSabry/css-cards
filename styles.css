@@ -30,6 +30,8 @@ body {
 }
 
 .card-header--title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .card-header--photo {
