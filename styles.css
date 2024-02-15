@@ -29,14 +29,20 @@ body {
 .card-header {
 }
 
+.card-header--title {
+}
+
+.card-header--photo {
+}
+
 .card-body {
 }
 
 .card-footer {
 }
 
-.details-btn {
+.card-footer--details-btn {
 }
 
-.contact-seller-button {
+.card-footer--contact-seller-button {
 }
