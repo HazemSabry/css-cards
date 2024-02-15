@@ -45,6 +45,7 @@ body {
 
 .card-body {
   padding: var(--card-padding);
+  font-size: 0.9rem;
 }
 
 .card-footer {
