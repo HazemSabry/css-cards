@@ -8,6 +8,11 @@
 
   --card-image: url(./assets/0x0.webp);
   --card-image-hight: 14rem;
+
+  --card-btn-background-color: hsl(200, 50%, 50%);
+  --card-btn-onHover-OR-onFocus-background-color: hsl(200, 50%, 50%);
+  --card-btn-text-color: #fff;
+  --card-btn-border-reduce: 0.25em;
 }
 
 * {
@@ -53,7 +58,18 @@ body {
 }
 
 .card-footer--details-btn {
+  background-color: var(--card-btn-background-color);
+  border: none;
+  padding: 0.5em 0.75em;
+  color: var(--card-btn-text-color);
+  cursor: pointer;
+  border-radius: var(--card-btn-border-reduce);
 }
 
 .card-footer--contact-seller-button {
+  border: none;
+  padding: 0.5em 0.75em;
+  color: var(--card-btn-text-color);
+  cursor: pointer;
+  border-radius: var(--card-btn-border-reduce);
 }
