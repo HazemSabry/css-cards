@@ -10,7 +10,7 @@
   --card-image-hight: 14rem;
 
   --card-btn-background-color: hsl(200, 50%, 50%);
-  --card-btn-onHover-OR-onFocus-background-color: hsl(200, 50%, 50%);
+  --card-btn-onHover-OR-onFocus-background-color: hsl(200, 50%, 60%);
   --card-btn-text-color: #fff;
   --card-btn-border-reduce: 0.25em;
 }
@@ -64,6 +64,11 @@ body {
   color: var(--card-btn-text-color);
   cursor: pointer;
   border-radius: var(--card-btn-border-reduce);
+}
+
+.card-footer--details-btn:hover,
+.card-footer--details-btn:focus {
+  background-color: var(--card-btn-onHover-OR-onFocus-background-color);
 }
 
 .card-footer--contact-seller-button {
