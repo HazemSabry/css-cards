@@ -9,8 +9,9 @@
   --card-image: url(./assets/0x0.webp);
   --card-image-hight: 14rem;
 
-  --card-btn-background-color: hsl(200, 50%, 50%);
+  --card-btn-color: hsl(200, 50%, 50%);
   --card-btn-onHover-OR-onFocus-background-color: hsl(200, 50%, 60%);
+  --card-btn-outline-onHover-OR-onFocus-background-color: hsl(200, 50%, 90%);
   --card-btn-text-color: #fff;
   --card-btn-border-reduce: 0.25em;
 }
@@ -46,6 +47,7 @@ body {
   width: 100%;
   height: var(--card-image-hight);
   background-size: cover;
+  background-position: center;
 }
 
 .card-body {
@@ -58,7 +60,7 @@ body {
 }
 
 .card-footer--details-btn {
-  background-color: var(--card-btn-background-color);
+  background-color: var(--card-btn-color);
   border: none;
   padding: 0.5em 0.75em;
   color: var(--card-btn-text-color);
@@ -71,10 +73,11 @@ body {
   background-color: var(--card-btn-onHover-OR-onFocus-background-color);
 }
 
-.card-footer--contact-seller-button {
-  border: none;
+.card-footer--contact-search-button {
+  background-color: none;
+  border: 1px solid var(--card-btn-color);
   padding: 0.5em 0.75em;
-  color: var(--card-btn-text-color);
+  color: var(--card-btn-color);
   cursor: pointer;
   border-radius: var(--card-btn-border-reduce);
 }
