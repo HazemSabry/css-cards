@@ -1,4 +1,10 @@
 :root {
+  --background-card-color: #fff;
+  --card-padding: 1rem;
+  --card-border: 1px solid #777;
+  --card-border-radius: 0.25rem;
+  --card-width: 80%;
+  --card-max-width: 40rem;
 }
 
 * {
@@ -11,6 +17,12 @@ body {
 }
 
 .card {
+  background-color: var(--background-card-color);
+  padding: var(--card-padding);
+  border: var(--card-border);
+  border-radius: var(--card-border-radius);
+  width: var(--card-width);
+  max-width: var(--card-max-width);
 }
 
 .card-header {
