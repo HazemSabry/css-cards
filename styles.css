@@ -7,7 +7,6 @@
   --card-width: 80%;
   --card-max-width: 25rem;
 
-  --card-image: url(./assets/0x0.webp);
   --card-image-hight: 14rem;
 
   --card-btn-color: hsl(200, 50%, 50%);
@@ -51,6 +50,10 @@ body {
   max-width: var(--card-max-width);
 }
 
+.card:hover > .card-header > .card-header--photo > img {
+  transform: scale(1.025);
+}
+
 .card-header {
 }
 
@@ -61,11 +64,16 @@ body {
 }
 
 .card-header--photo {
-  background-image: var(--card-image);
   width: 100%;
   height: var(--card-image-hight);
-  background-size: cover;
-  background-position: center;
+  overflow: hidden;
+}
+
+.card-header--photo > img {
+  width: 100%;
+  height: var(--card-image-hight);
+  object-fit: cover;
+  object-position: center;
 }
 
 .card-body {
